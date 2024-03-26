@@ -13,10 +13,12 @@ const Home = () => {
 		<>
 		  <NavBar/>
 		  <Jumbotron/>
-		  <Card imageURL="https://picsum.photos/id/147/500/325" title="Ocean" description="Quiet ocean relaxing your mind ."/>
-		  <Card imageURL="https://picsum.photos/id/237/500/325" title="Cute Puppy" description="A little puppy smiling."/>
-		  <Card imageURL="https://picsum.photos/id/122/500/325" title="City " description="In the city of blinding lights"/>
-		  <Card imageURL="https://picsum.photos/id/191/500/325" title="Highway" description="I'm on the highway to hell."/>
+		  <div className="row mx-5">
+		    <Card imageURL="https://picsum.photos/id/147/500/325" title="Ocean" description="Quiet ocean relaxing your mind ."/>
+		    <Card imageURL="https://picsum.photos/id/237/500/325" title="Cute Puppy" description="A little puppy smiling."/>
+		    <Card imageURL="https://picsum.photos/id/122/500/325" title="City " description="In the city of blinding lights"/>
+		    <Card imageURL="https://picsum.photos/id/191/500/325" title="Highway" description="I'm on the highway to hell."/>
+		  </div>
 		  <Footer />
 
 		</>
